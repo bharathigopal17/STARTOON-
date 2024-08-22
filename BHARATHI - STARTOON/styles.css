@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.patient-header {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.patient-info {
+    margin-top: 20px;
+}
+
+.patient-name h3 {
+    margin: 0;
+}
+
+.patient-name p {
+    color: #777;
+    margin: 5px 0;
+}
+
+.goal-reached {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.goal-circle {
+    flex: 1;
+    text-align: center;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.goal-text {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.goal-text h4 {
+    margin: 0;
+}
+
+.status p {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.emg-status, .rom-status {
+    width: 20px;
+    height: 10px;
+    background-color: #28a745; /* EMG - Green */
+    border-radius: 3px;
+}
+
+.rom-status {
+    background-color: #dc3545; /* ROM - Red */
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.medical-history {
+    margin-top: 20px;
+}
+
+.medical-history h4 {
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
